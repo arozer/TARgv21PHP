@@ -1,0 +1,171 @@
+/*أ¼ldine
+----------*/
+body {
+    background-color: white;
+
+}
+/*pأ¤is*
+---------**/
+
+header{
+    background-color: #00CC00;
+    padding: 8px; /*ذ¾ذ±ذ»ذ°رپر‚رŒ ذ¼ذµذ¶ذ´رƒ ر‚ذµذ؛رپر‚ذ¾ذ¼ ذ¸ ذ³ر€ذ°ذ½ذ¸ر†ذµذ¹ رˆذ°ذ؟ذ؛ذ¸*/
+    border: solid 2px #39E639;
+    border-radius:45px;
+}
+header h1{
+    letter-spacing: 0.2cm;
+    font-size: 30px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    color:#008500
+}
+header h3{
+    letter-spacing: 0.1cm;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    color:#008500
+}
+main h3{
+    color:#67E667;
+    font-size:20px;
+}
+h6{
+    font-size: 14px;
+    font-family: arial;
+    text-align: left;
+    font-weight:400;
+
+}
+p{
+    font-family:Trebuchet MS
+}
+
+/*ذ½ذ°ذ² ذ¼ذµذ½رژ*/
+nav ul li{
+    display: inline;
+    overflow: visible;
+}
+nav li {
+    padding: 14px;
+    background-color:#008500
+
+}
+a{
+    font-size: 20px;
+    color:#67E667;
+    letter-spacing:0.1cm;
+    line-height:normal;
+}
+/*main -sisu paigaldus*/
+main{
+    height:600px;
+    width:1440px;
+    margin: 25px;
+    position:relative; /*ذ¾ر‚ذ½ذ¾رپذ¸ر‚ذµذ»رŒذ½ذ¾ذµ ذ¼ذµرپر‚ذ¾ ر€ذ°رپذ؟ذ¾ذ»ذ¾ذ¶ذµذ½ذ¸ذµ*/
+}
+.esimene, .teine, .kolmas, .neljas {
+    position: absolute;
+}
+.esimene{
+    width: 130px;
+    top: 0%;
+    left:450px;
+    z-index: 1;
+}
+
+.teine{
+    width: 400px;
+    top: 4%;
+    left:0px;
+    z-index: 2;
+    border:solid 1px;
+}
+
+.kolmas{
+    width: 400px;
+    top: 40%;
+    left:0px;
+    z-index: 3;
+    border:solid 1px;
+}
+.neljas{
+    width: 400px;
+    top: 40%;
+    left:430px;
+    z-index: 4;
+}
+.works {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+#poolt{
+    position: absolute;
+    left:100px;
+    z-index:4;
+}
+#poolt3{
+    position: absolute;
+    left:200px;
+    z-index:4;
+}
+#h3tood {
+    font-size:45px;
+}
+.container{
+
+    position:relative;
+}
+
+#green{
+    position:absolute;
+    left:200px;
+    top:200px;
+    z-index:4;
+}
+#red{
+    position:absolute;
+    left:50px;
+    top:50px;
+    z-index:1;
+}
+#orange{
+    position:absolute;
+    left:150px;
+    top:150px;
+    z-index:3;
+}
+#white{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:0;
+}
+#yellow{
+    position:absolute;
+    z-index:2;
+    left:100px;
+    top:100px;
+}
+
+/*ذ؟ذ¾ذ´ذ²ذ°ذ»*/
+footer {
+    background-color: #00CC00;
+    color:white;
+    padding: 10px;
+    border: solid 2px #67E667;
+    border-radius:45px;
+    letter-spacing: 0.1cm;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border: 3px solid black;
+
+    font-family: Verdana;
+    color:white
+}
+

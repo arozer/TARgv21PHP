@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="et"> 
+
+<head>
+	<meta charset="UTF-8">
+	<title>Georgi Koduleht</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  var lahti=true;
+    function kollaseks(){
+		$("a").css("color", "yellow")
+	}
+	function mustaks(){
+		$("a").css("color", "black")
+	}
+	function alusta (){
+		$("a").mouseenter(kollaseks);
+		$("a").mouseleave(mustaks);
+	}
+	function vahetus(){
+	$('#koht').slideToggle()
+	if(lahti){
+	lahti=false;
+	$('#nupp').val("Näita teksti");
+	}else{
+	lahti=true;
+	$('#nupp').val("Peida teksti");
+	}
+	}
+	</script>
+</head>
+
+<body onload="alusta()">
+<!--päis-->
+<header>
+	<h1>Georgi Nikolajev koduleht</h1>
+	<h3>Noorem Tarkvaraarendaja Veebirakenduse aluste tööd</h3>
+</header>
+<!--нав меню-->
+	<nav>
+		<ul>
+			<li>
+			<a href="index.html">Avaleht</a></li>
+			<li>
+			<a href="content/lingid.html">Kasulikud lingid</a></li>
+			<li>
+			<a href="content/tood.html">HTML/CSS/JS tööd</a></li>
+			<li>
+			<a href="content/kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+<main>
+	<section class="esimene">
+		<h3>Tere tulemast!</h3>
+		<img src ="img/mike.png" alt="mike">
+	</section>
+	<section class="teine">
+		<h3>
+		minust
+		</h3>
+		<p>
+		Tere!<br>
+		minu nimi: Georgi Nikolajev
+		olen 20 aastat vana<br>
+		TTHK õpilane<br>
+		olen pärit Sillamäelt,praegu elan Tallinnas<br>
+		minu huvid: korvpall,programeerimine
+		</p>
+	</section>
+	<section class="kolmas">
+		<h3>
+		noorem takrvaraarendaja kutseeksam
+		</h3>
+		<p>Kutseeksam on EUCIP eksamite põhine eksam ja koosneb 3.osast(eksamist):</p>
+		<ol>
+		<li>moodul A - IT juhtimine</li>
+		<li>moodul B - Programeerimine,andmebaasid,Tarkvara arendamine,Veebirakendused</li>
+		<li>moodul C light - haldus, riistvara,arvutivõrgud</li>
+		</ol>
+	</section>
+	<section class="neljas">
+	<div id="koht">
+		<span>liiguta mind!</span>
+		</div>
+		<input id ="poolt" type="button" value="Paremale" onclick="$('.neljas').animate({left:'500px'}, 800)">
+		<input id ="poolt2" type="button" value="Vasakule" onclick="$('.neljas').animate({left:'400px'}, 800)">
+		<input id ="poolt3" type="button" value="Vaheta" onclick="vahetus()">
+	</section>
+	
+</main>
+
+<!--подвал-->
+	<footer>
+	             <a href="https://validator.w3.org/check?uri=referer"><img width="88" height="31" alt="W3C HTML5 certified"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png">
+     </a>
+     <a href="https://jigsaw.w3.org/css-validator/check/referer">
+         <img style="border:0;width:88px;height:31px"
+             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+             alt="Valid CSS!" />
+     </a>
+	(c) 2021 GN
+	</footer>
+</body>
+<!--kommentaar-->
+</html>

@@ -1,0 +1,131 @@
+/*Eesti lipp*/
+#eesti{
+	width:330px;
+	height:220px;
+	border-spacing:0px;
+	padding:0px;
+	border:solid 1px grey;
+}
+#eesti tr:nth-child(1){/*1.rida*/
+	background-color:blue;
+	height:73px:
+}
+#eesti tr:nth-child(2){/*2.rida*/
+	background-color:black;
+	height:73px:
+}
+#eesti tr:nth-child(3){/*3.rida*/
+	background-color:white;
+	height:73px:
+}
+
+/*Soome lipp*/
+
+#soome{
+	width:330px;
+	height:220px;
+	border-spacing:0px;
+	padding:0px;
+	border:solid 1px grey;
+}
+/*1.rida 1.lahter ja 3.rida 1.lahter*/
+#soome tr:nth-child(1) td:nth-child(1), #soome tr:nth-child(3) td:nth-child(1){
+	background-color:white;
+	height:73px;
+	width:70px;
+}
+/*1.rida 2.lahter ja 3.rida 2.lahter*/
+#soome tr:nth-child(1) td:nth-child(2), #soome tr:nth-child(3) td:nth-child(2){
+	background-color:blue;
+	height:73px;
+	width:60px;
+}
+/*1.rida 3.lahter ja 3.rida 3.lahter*/
+#soome tr:nth-child(1) td:nth-child(3), #soome tr:nth-child(3) td:nth-child(3){
+	background-color:white;
+	height:73px;
+}
+#soome tr:nth-child(2){
+	background-color:blue;
+	height:73px;
+}
+
+#saksa {
+	width:330px;
+	height:220px;
+	border-spacing:0px;
+	padding:0px;
+	border:solid 1px grey;
+}
+#saksa tr:nth-child(1){/*1.rida*/
+	background-color:black;
+	height:73px:
+}
+#saksa tr:nth-child(2){/*2.rida*/
+	background-color:red;
+	height:73px:
+}
+#saksa tr:nth-child(3){/*3.rida*/
+	background-color:yellow;
+	height:73px:
+}
+#leedu {
+	width:330px;
+	height:220px;
+	border-spacing:0px;
+	padding:0px;
+	border:solid 1px grey;
+}
+#leedu tr:nth-child(1){/*1.rida*/
+	background-color:yellow;
+	height:73px:
+}
+#leedu tr:nth-child(2){/*2.rida*/
+	background-color:green;
+	height:73px:
+}
+#leedu tr:nth-child(3){/*3.rida*/
+	background-color:red;
+	height:73px:
+}
+#rootsi{
+	width:330px;
+	height:220px;
+	border-spacing:0px;
+	padding:0px;
+	border:solid 1px grey;
+}
+/*1.rida 1.lahter ja 3.rida 1.lahter*/
+#rootsi tr:nth-child(1) td:nth-child(1), #rootsi tr:nth-child(3) td:nth-child(1){
+	background-color:blue;
+	height:73px;
+	width:70px;
+}
+/*1.rida 2.lahter ja 3.rida 2.lahter*/
+#rootsi tr:nth-child(1) td:nth-child(2), #rootsi tr:nth-child(3) td:nth-child(2){
+	background-color:yellow;
+	height:73px;
+	width:60px;
+}
+/*1.rida 3.lahter ja 3.rida 3.lahter*/
+#rootsi tr:nth-child(1) td:nth-child(3), #rootsi tr:nth-child(3) td:nth-child(3){
+	background-color:blue;
+	height:73px;
+}
+#rootsi tr:nth-child(2){
+	background-color:yellow;
+	height:73px;
+}
+#kreeka{
+	width:330px;
+	height:220px;
+	border-spacing:0px;
+	padding:0px;
+	border:solid 1px grey;
+}
+#kreeka tr:nth-child(1) td:nth-child(2), #kreeka tr:nth-child(2) td:nth-child(2),#kreeka tr:nth-child(3) td:nth-child(2),#kreeka tr:nth-child(4) td:nth-child(2),#kreeka tr:nth-child(5) td:nth-child(2),#kreeka tr:nth-child(3) td:nth-child(1),#kreeka tr:nth-child(3) td:nth-child(3){
+	background-color:white
+}
+#kreeka tr:nth-child(1), #kreeka tr:nth-child(3),#kreeka tr:nth-child(5),#kreeka tr:nth-child(7),#kreeka tr:nth-child(9),#kreeka tr:nth-child(2) td:nth-child(1),#kreeka tr:nth-child(2) td:nth-child(3),#kreeka tr:nth-child(4) td:nth-child(1),#kreeka tr:nth-child(4) td:nth-child(3) {
+	background-color:blue
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Georgi puzzlemäng</title>
+	<link rel="stylesheet" type="text/css" href="puzzlestyle.css">
+	<script src="puzzle.js"></script>
+</head>
+<body onload="init();">
+<!--päis-->
+<header>
+	<h1>Georgi Nikolajev koduleht</h1>
+	<h3>puzzlemäng</h3>
+</header>
+<nav>
+		<ul>
+			<li>
+			<a href="../index.html">Avaleht</a></li>
+			<li>
+			<a href="../content/lingid.html">Kasulikud lingid</a></li>
+			<li>
+			<a href="../content/tood.html">HTML/CSS/JS tööd</a></li>
+			<li>
+			<a href="../content/kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+<main>
+	<table id="center">
+		<tr>
+			<td colspan="3">
+				<h1>tulemuspilt</h1>
+			</td>
+			<td colspan="3">
+				<h1>Among Us PUZZLE</h1>
+			</td>
+			<td colspan="3">
+				<h1 id="valosa">valitud osa</h1>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<img src="amogus.jpg" alt="tulemus">
+			</td>
+			<td colspan="3" id="puzzle">
+				<img src="tuhi.jpg" alt="piltosa1" id="osa1" onclick="mouseclicked(this)">
+				<img src="tuhi.jpg" alt="piltosa2" id="osa2" onclick="mouseclicked(this)">
+				<img src="tuhi.jpg" alt="piltosa3" id="osa3" onclick="mouseclicked(this)">
+				<br>
+				<img src="tuhi.jpg" alt="piltosa4" id="osa4" onclick="mouseclicked(this)">
+				<img src="tuhi.jpg" alt="piltosa5" id="osa5" onclick="mouseclicked(this)">
+				<img src="tuhi.jpg" alt="piltosa6" id="osa6" onclick="mouseclicked(this)">
+				<br>
+				<img src="tuhi.jpg" alt="piltosa7" id="osa7" onclick="mouseclicked(this)">
+				<img src="tuhi.jpg" alt="piltosa8" id="osa8" onclick="mouseclicked(this)">
+				<img src="tuhi.jpg" alt="piltosa9" id="osa9" onclick="mouseclicked(this)">
+			</td>
+			<td colspan="3">
+				<img src="tuhi.jpg" alt="valikosa" id="valitudpilt">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="9"><br><br><br></td>
+		</tr>
+			<tr>
+				<td><img src="amog3.jpg" alt="pilt" id="amogosa3" onclick="imagechoice(this)"></td>
+				<td><img src="amog2.jpg" alt="pilt" id="amogosa2" onclick="imagechoice(this)"></td>
+				<td><img src="amog7.jpg" alt="pilt" id="amogosa7" onclick="imagechoice(this)"></td>
+				<td><img src="amog9.jpg" alt="pilt" id="amogosa9" onclick="imagechoice(this)"></td>
+				<td><img src="amog1.jpg" alt="pilt" id="amogosa1" onclick="imagechoice(this)"></td>
+				<td><img src="amog4.jpg" alt="pilt" id="amogosa4" onclick="imagechoice(this)"></td>
+				<td><img src="amog8.jpg" alt="pilt" id="amogosa8" onclick="imagechoice(this)"></td>
+				<td><img src="amog5.jpg" alt="pilt" id="amogosa5" onclick="imagechoice(this)"></td>
+				<td><img src="amog6.jpg" alt="pilt" id="amogosa6" onclick="imagechoice(this)"></td>
+			</tr>
+	</table>
+</main>
+	<footer>
+	(c) 2021 GN
+	</footer>
+</body>
+<!--kommentaar-->
+</html>

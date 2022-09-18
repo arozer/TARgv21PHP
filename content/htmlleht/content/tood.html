@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Georgi tood</title>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+  <script type="text/javascript">
+  function show(){
+	  $(".list").fadeIn("slow");
+
+}
+
+function hide(){
+    $(".list").fadeOut("slow");
+
+  }
+  </script>
+</head>
+<body>
+<!--päis-->
+<header>
+	<h1>Georgi Nikolajev koduleht</h1>
+	<h3>Noorem Tarkvaraarendaja Veebirakenduse aluste tööd</h3>
+</header>
+<!--нав меню-->
+	<nav>
+		<ul>
+			<li>
+			<a href="../index.html">Avaleht</a></li>
+			<li>
+			<a href="../content/lingid.html">Kasulikud lingid</a></li>
+			<li>
+			<a href="../content/tood.html">HTML/CSS/JS tööd</a></li>
+			<li>
+			<a href="../content/kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+<main>
+		<h3 id="h3tood">
+		kõik tööd
+		</h3>
+		<div class="works">
+			<ul class="list">
+				<li><a href="../maparea/index.html">MapArea kodutöö</a></li>
+				<br>
+				<li><a href="../lipud/index.html">lipud kodutöö</a></li>
+				<br>
+				<li><a href="../vormid/vormid.html">vormid kodutöö</a></li>
+				<br>
+				<li><a href="../calc/calc.html">valuuta kalku kodutöö</a></li>
+				<br>
+				<li><a href="../content/legomehike.html">LEGO ninja</a></li>
+				<br>
+				<li><a href="../content/puzzle/puzzlemäng.html">puzzle</a></li>
+				<br>
+				<li><a href="TARgv20kodulehed.html">TARGV20 lehed</a></li>
+			</ul>
+		</div>
+	<input type="button" id="button1" value="näita tööd" onclick="show()">
+	<input type="button" id="button2" value="Peita tööd" onclick="hide()">
+</main>
+
+<!--подвал-->
+	<footer>
+	(c) 2021 GN
+	</footer>
+</body>
+<!--kommentaar-->
+</html>

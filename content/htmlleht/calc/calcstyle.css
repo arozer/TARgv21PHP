@@ -1,0 +1,34 @@
+
+
+#sisesta{
+	color:#FFEB00;
+	width:800px;
+	background-color:#BFB430;
+	border:2px solid;
+	border-color:#FFF473;
+	border-radius:5px;
+	font-size: 61px
+}
+#calc {
+	margin-left:200px;
+	background-color:#A69900;
+	border:double;
+	border-color:#FFF473;
+	width:900px;
+	height:600px;
+}
+#dol,#rub,#kr,#pod,#inputnumber,#euro{
+	color:#FFEB00;
+	font-size: 61px;
+}
+#answer{
+	font-size:61px;
+	border:1px solid;
+	border-color:#FFF473;
+	color:#FFEB00
+		
+}
+#convert{
+	font-size:40px;
+	margin-top:70px;
+}

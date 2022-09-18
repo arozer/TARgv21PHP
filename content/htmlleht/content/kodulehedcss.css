@@ -1,0 +1,144 @@
+/*üldine
+----------*/
+body {
+    background-color: white;
+
+}
+/*päis*
+---------**/
+
+header{
+    background-color: #00CC00;
+    padding: 8px; /*область между текстом и границей шапки*/
+    border: solid 2px #39E639;
+    border-radius:45px;
+}
+header h1{
+    letter-spacing: 0.2cm;
+    font-size: 30px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    color:#008500
+}
+header h3{
+    letter-spacing: 0.1cm;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    color:#008500
+}
+main h3{
+    color:#67E667;
+    font-size:20px;
+}
+h6{
+    font-size: 14px;
+    font-family: arial;
+    text-align: left;
+    font-weight:400;
+
+}
+p{
+    font-family:Trebuchet MS
+}
+
+/*нав меню*/
+nav ul li{
+    display: inline;
+    overflow: visible;
+}
+nav li {
+    padding: 14px;
+    background-color:#008500
+
+}
+a{
+    font-size: 20px;
+    color:#67E667;
+    letter-spacing:0.1cm;
+    line-height:normal;
+}
+/*main -sisu paigaldus*/
+main{
+    height:950px;
+    width:1440px;
+    margin: 25px;
+    position:relative; /*относительное место расположение*/
+}
+.kodulehedlist {
+    list-style:none;
+    padding-right: 1050px;
+}
+.kodulehedlist a{
+    font-size: 20px;
+}
+.kodulehedlist li {
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #f05d22;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+    -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+.kodulehedlist li:nth-child(2){border-color: #8bc63e;}
+.kodulehedlist li:nth-child(3){border-color: #fcba30;}
+.kodulehedlist li:nth-child(4){border-color: #1ccfc9;}
+.kodulehedlist li:nth-child(5){border-color: #493224;}
+.kodulehedlist li:nth-child(6){border-color: #4287f5;}
+.kodulehedlist li:nth-child(7){border-color: #c542f5;}
+.kodulehedlist li:nth-child(8){border-color: #c40c2f;}
+.kodulehedlist li:nth-child(9){border-color: #296a23;}
+.kodulehedlist li:nth-child(10){border-color: #ec7606;}
+.kodulehedlist li:nth-child(11){border-color: #54a864;}
+.kodulehedlist li:nth-child(12){border-color: #4306ba;}
+.kodulehedlist li:nth-child(13){border-color: #020202;}
+.kodulehedlist li:nth-child(14){border-color: #e35311;}
+.kodulehedlist li:nth-child(15){border-color: #c21b70;}
+.kodulehedlist li:nth-child(16){border-color: #7b0529;}
+.kodulehedlist li:nth-child(17){border-color: #db9472;}
+.kodulehedlist li:nth-child(18){border-color: #657827;}
+
+.kodulehedlist li:hover {border-left: 10px solid transparent;}
+.kodulehedlist li:nth-child(1):hover {border-right: 10px solid #f05d22;}
+.kodulehedlist li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+.kodulehedlist li:nth-child(3):hover {border-right: 10px solid #fcba30;}
+.kodulehedlist li:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
+.kodulehedlist li:nth-child(6):hover {border-right: 10px solid #4287f5;}
+.kodulehedlist li:nth-child(5):hover {border-right: 10px solid #493224;}
+.kodulehedlist li:nth-child(7):hover {border-right: 10px solid #c542f5;}
+.kodulehedlist li:nth-child(8):hover {border-right: 10px solid #c40c2f;}
+.kodulehedlist li:nth-child(9):hover {border-right: 10px solid #296a23;}
+.kodulehedlist li:nth-child(10):hover {border-right: 10px solid #ec7606;}
+.kodulehedlist li:nth-child(11):hover {border-right: 10px solid #54a864;}
+.kodulehedlist li:nth-child(12):hover {border-right: 10px solid #4306ba;}
+.kodulehedlist li:nth-child(13):hover {border-right: 10px solid#020202;}
+.kodulehedlist li:nth-child(14):hover {border-right: 10px solid #e35311;}
+.kodulehedlist li:nth-child(15):hover {border-right: 10px solid #c21b70;}
+.kodulehedlist li:nth-child(16):hover {border-right: 10px solid #7b0529;}
+.kodulehedlist li:nth-child(17):hover {border-right: 10px solid #db9472;}
+.kodulehedlist li:nth-child(18):hover {border-right: 10px solid #657827;}
+
+
+#tarlist{
+    padding-left:40px ;
+    color:#67E667;
+
+}
+/*подвал*/
+footer {
+    background-color: #00CC00;
+    color:white;
+    padding: 10px; /*область между текстом и границей шапки*/
+    border: solid 2px #67E667;
+    border-radius:45px;
+    letter-spacing: 0.1cm;
+    font-size: 10px;
+    font-family: Verdana;
+    color:white
+}

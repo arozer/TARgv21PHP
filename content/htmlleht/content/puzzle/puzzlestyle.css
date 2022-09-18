@@ -1,0 +1,87 @@
+/*üldine
+----------*/
+body {
+	background-color: white;
+
+}
+/*päis*
+---------**/
+
+header{
+	background-color: #00CC00;
+	padding: 8px; /*область между текстом и границей шапки*/
+	border: solid 2px #39E639;
+	border-radius:45px;
+}
+header h1{
+	letter-spacing: 0.2cm;
+	font-size: 30px;
+	font-family: Trebuchet MS;
+	text-align: center;
+	color:#008500
+}
+header h3{
+	letter-spacing: 0.1cm;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	text-align: center;
+	color:#008500
+}
+main h3{
+	color:#67E667
+}
+h6{
+	font-size: 14px;
+	font-family: arial;
+	text-align: left;
+	font-weight:400;
+
+}
+p{
+	font-family:Trebuchet MS
+}
+
+/*нав меню*/
+nav ul li{
+	display: inline;
+	overflow: visible;
+}
+nav li {
+	padding: 14px;
+	background-color:#008500
+	
+}
+a{
+	color:#67E667
+}
+/*main -sisu paigaldus*/
+main{
+	height:700px;
+	width:1440px;
+	margin: 25px;
+	position:relative; /*относительное место расположение*/
+}
+
+#center {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+#valitudpilt,#valosa{
+	margin-left:100px;
+}
+
+
+/*подвал*/
+footer {
+	background-color: #00CC00;
+	color:white;
+	padding: 10px; /*область между текстом и границей шапки*/
+	border: solid 2px #67E667;
+	border-radius:45px;
+	letter-spacing: 0.1cm;
+	font-size: 10px;
+	font-family: Verdana;
+	color:white
+}

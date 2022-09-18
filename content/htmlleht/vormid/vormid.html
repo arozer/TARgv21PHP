@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vormid HTML keeles</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script src="myscript.js"></script>
+</head>
+<body>
+<h1>ankeet</h1>
+
+<form name="ankeet">
+	<table>
+		<tr>
+		<td><label for="nimi">sisesta nimi:</label></td>
+		</tr>
+		<tr>
+		<td><input type="text" id="nimi" placeholder="Eesnimi max 12" maxlength="12"></td>
+		</tr>
+		<tr>
+		<td><strong>vali rühm:</strong></td>
+		</tr>
+		<tr>
+		<td><input type="radio" id="tar" name="rühm" value="tar" checked></td>
+		</tr>
+		<tr>
+		<td><label for="tar">TAR rühm</label></td>
+		</tr>
+		<tr>
+		<td><input type="radio" id="logit" name="rühm" value="logit"></td>
+		</tr>
+		<tr>
+		<td><label for="logit">LOGIT rühm</label></td>
+		</tr>
+		<tr>
+		<td><input type="radio" id="tit" name="rühm" value="tit"></td>
+		</tr>
+		<tr>
+		<td><label for="tit">TIT rühm</label></td>
+		</tr>
+		<tr>
+		<td><label for="essee">Arvamus õppimise kohta</label></td>
+		</tr>
+		<tr>
+		<td><textarea id="essee" cols="20" rows="5">kirjuta siia oma arvamust...</textarea></td>
+		</tr>
+		<tr>
+		<td><strong>vali oma lemmikaine</strong></td>
+		</tr>
+		<tr>
+		<!--ripploend - выпадающий список-->
+		<td><select id="ained">
+		<option value="">---vali---</option>
+		<option value="matemaatika">matemaatika</option>
+		<option value="andmebaasid">andmebaasid</option>
+		<option value="programmerimine">programmerimine</option>
+		<option value="veebirakendused">veebirakendused</option>
+		</select></td>
+		</tr>
+		<tr>
+		<td><strong>vali õiged vastused</strong></td>
+		</tr>
+		<tr>
+		<td><input type="checkbox" id="v1" name="test" value=""></td>
+		</tr>
+		<tr>
+		<td><label for="v1">HTML on programmerimise keel</label></td>
+		</tr>
+		<tr>
+		<td><input type="checkbox" id="v2" name="test" value="" checked></td>
+		</tr>
+		<tr>
+		<td><label for="v2">HTML on struktuuri määramise keel</label></td>
+		</tr>
+		<tr>
+		<td><input type="checkbox" id="v2" name="test" value=""></td>
+		</tr>
+		<tr>
+		<td><label for="v3">CSS aitab teha veebilehe kujundust</label></td>
+		</tr>
+		<tr>
+		<td><label for="favcolor">vali värv,missugune assotsieerub programmeerimisega :</label></td>
+		</tr>
+		<tr>
+		<td><input type="color" id="varv" name="varv"></td>
+		</tr>
+		<tr>
+		<td><label for="quantity">vali mittu tundid sul on nädalas:</label></td>
+		</tr>
+		<tr>
+		<td><input type="number" id="mittu" name="quantity" min="1" max="10"></td>
+		</tr>
+		<tr>
+		<td><label for="vol">kas sul on meeldib selline küsimustik? vali punktiga kui palju:</label></td>
+		</tr>
+		<tr>
+		<td><input type="range" id="vahel" name="vol" min="0" max="100"></td>
+		</tr>
+		<tr>
+		<td><label for="email">sisesta oma e-post:</label></td>
+		</tr>
+		<tr>
+		<td><input type="email" id="email" name="email"></td>
+		</tr>
+		<tr>
+		<td>
+		<input type="button" value="saada" id="btn1" onclick="kusimustik()">
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<div id="vastus"></div>
+		</td>
+		</tr>
+</table>
+</form>
+
+</body>
+</html>

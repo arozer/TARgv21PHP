@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TARgv20 kodulehed</title>
+    <link rel="stylesheet" type="text/css" href="kodulehedcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+        function show(){
+            $(".kodulehedlist").fadeIn("slow");
+
+
+        }
+
+        function hide(){
+            $(".kodulehedlist").fadeOut("slow");
+
+        }
+    </script>
+</head>
+<body>
+<!--päis-->
+<header>
+    <h1>Georgi Nikolajev koduleht</h1>
+    <h3>TARgv20 kodulehed</h3>
+</header>
+<!--нав меню-->
+<nav>
+    <ul>
+        <li>
+            <a href="../index.html">Avaleht</a></li>
+        <li>
+            <a href="../content/lingid.html">Kasulikud lingid</a></li>
+        <li>
+            <a href="../content/tood.html">HTML/CSS/JS tööd</a></li>
+        <li>
+            <a href="../content/kontakt.html">Kontakt</a></li>
+    </ul>
+</nav>
+<main>
+    <h1 id="tarlist">TARgv20 kodulehed</h1>
+    <ul class="kodulehedlist">
+        <li><a  href="https://elina20.thkit.ee" target="_blank">Elina Aleksejevski</a></li>
+        <li><a  href="https://aleksejevski20.thkit.ee" target="_blank"> Stanislav Aleksejevski</a></li>
+        <li><a  href="https://belov20.thkit.ee" target="_blank">Maksim Belov</a></li>
+        <li><a  href="https://bogdanov20.thkit.ee" target="_blank">Konstantin Bogdanov</a></li>
+        <li><a  href="https://bustsik20.thkit.ee" target="_blank">Maria Bustsik</a></li>
+        <li><a  href="https://duhhov20.thkit.ee" target="_blank">Ruslan Duhhov</a></li>
+        <li><a  href="https://gabitov20.thkit.ee" target="_blank">Vladimir Gabitov</a></li>
+        <li><a  href="https://gudrijanov20.thkit.ee" target="_blank">Oleg Gudrijanov</a></li>
+        <li><a  href="https://jevdokimova20.thkit.ee" target="_blank">Anastasia Jevdokimova</a></li>
+        <li><a  href="https://karpova20.thkit.ee" target="_blank">Valeria Karpova</a></li>
+        <li><a  href="https://kasuba20.thkit.ee/" target="_blank">Anton Kashuba</a></li>
+        <li><a  href="https://kolossova20.thkit.ee" target="_blank">Valeria Kolossova</a></li>
+        <li><a  href="https://ljah20.thkit.ee" target="_blank">Roman Ljah</a></li>
+        <li><a  href="https://makarov20.thkit.ee/" target="_blank">Zakhar Makarov</a></li>
+        <li><a  href="https://mihhailov20.thkit.ee" target="_blank">Daniil Mihhailov</a></li>
+        <li><a  href="https://orman20.thkit.ee/" target="_blank">Vadim Orman</a></li>
+        <li><a  href="https://skredov20.thkit.ee/" target="_blank">Dmitri Škredov</a></li>
+        <li><a  href="https://pjemeljanov.thkit.ee/" target="_blank">Pavel Jemeljanov</a></li>
+    </ul>
+    <br>
+    <input type="button" id="button1" value="näita tööd" onclick="show()">
+    <input type="button" id="button2" value="Peita tööd" onclick="hide()">
+</main>
+
+<!--подвал-->
+<footer>
+    (c) 2021 GN
+</footer>
+</body>
+<!--kommentaar-->
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vormid HTML keeles</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+<h1>ankeet</h1>
+<table>
+<form name="ankeet">
+	<label for="nimi">sisesta nimi:</label>
+	<input type="text" id="nimi" placeholder="Eesnimi max 6" maxlength="6">
+	<br>
+	<strong>vali rühm: </strong>
+	<br>
+	<input type="radio" id="tar" name="rühm" value="tar" checked>
+	<label for="tar">TAR rühm</label>
+	<br>
+	<input type="radio" id="logit" name="rühm" value="logit">
+	<label for="logit">LOGIT rühm</label>
+	<br>
+	<input type="radio" id="tit" name="rühm" value="tit">
+	<label for="tit">TIT rühm</label>
+	<br>
+	<label for="essee">Arvamus õppimise kohta</label>
+	</td>
+	<br>
+	<textarea id="essee" cols="20" rows="5">kirjuta siis oma arvamust...</textarea>
+	<br>
+	<strong>vali oma lemmikaine</strong>
+	<!--ripploend - выпадающий список-->
+	<select id="ained">
+		<option value="">---vali---</option>
+		<option value="matemaatika">matemaatika</option>
+		<option value="andmebaasid">andmebaasid</option>
+		<option value="programmerimine">programmerimine</option>
+		<option value="veebirakendused">veebirakendused</option>
+	</select>
+	<br>
+	<strong>vali õiged vastused</strong>
+	<br>
+	<input type="checkbox" id="v1" name="test" value="">
+	<label for="v1">HTML on programmerimise keel</label>
+	<br>
+	<input type="checkbox" id="v2" name="test" value="" checked>
+	<label for="v2">HTML on struktuuri määramise keel</label>
+	<br>
+	<input type="checkbox" id="v2" name="test" value="">
+	<label for="v3">CSS aitab teha veebilehe kujundust</label>
+	<br>
+	<br>
+	<label for="favcolor">vali värv,missugune assotsieerub programmeerimisega :</label>
+	<input type="color" id="varv" name="varv">
+	<br>
+  <label for="quantity">vali mittu tundid sul on nädalas:</label>
+  <input type="number" id="mittu" name="quantity" min="1" max="10">
+ 	<br>
+  <label for="vol">kas sul on meeldib selline küsimustik? vali punktiga kui palju:</label>
+  <input type="range" id="vahel" name="vol" min="0" max="100">
+  	<br>
+	<input type="button" value="salvesta">
+	<br>
+	<label for="email">sisesta oma e-post:</label>
+	<input type="email" id="email" name="email">
+	
+</form>
+</table>
+</body>
+</html>

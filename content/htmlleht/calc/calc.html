@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="et">
+<!--kommentaar-->
+<head>
+    <meta charset="UTF-8">
+    <title>Valuuta kalkulaator</title>
+    <link rel="stylesheet" type="text/css" href="calcstyle.css">
+    
+</head>
+<body>
+<!--päis-->
+    <header>
+        <h1>Valuuta kalkulaator</h1>
+    </header>
+<main>
+    <h2>2.variant</h2>
+    <form id="calc"> 
+	<div id="sisesta">Sisesta number ja vali valuuta:</div>
+	<input type="radio" id="dollar" name="currency" value="dollar" checked> 
+    <label for="dollar" id="dol">$</label>
+	<br>
+	<input type="radio" id="krona" name="currency" value="krona"> 
+    <label for="krona" id="kr">kr</label>
+	<br>
+    <input type="radio" id="rouble" name="currency" value="rouble"> 
+    <label for="rouble"id="rub">RUB</label>
+	<br>
+    <input type="radio" id="pound" name="currency" value="pound"> 
+    <label for="pound" id="pod">£</label>
+	<br>
+    <br>
+    <input type="number" id="inputnumber" min="0"><label id="euro"> euro</label>
+    <!--vastuse ala-->
+	<br>
+    <div id="answer"></div>
+	<input type="button" value="konverteerima" id="convert" onclick="changeEvent()">
+    </form>
+</main>
+<script src="calcscript.js"></script>
+</body>
+</html> 
