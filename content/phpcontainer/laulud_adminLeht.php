@@ -59,7 +59,7 @@ include('header.php')
     <li><a href="https://nikolajev20.thkit.ee/?">Koduleht</a></li>
     <li><a href="laulud_adminLeht.php">Administreerimise leht</a></li>
     <li><a href="laulud.php">Kasutaja leht</a></li>
-    <li> <a href="https://github.com/arozer?tab=repositories">Git HUB</a></li>
+    <li> <a href="https://github.com/arozer/TARgv21PHP">Git HUB</a></li>
 </lu>
 <h1>Laulude admin leht</h1>
 <h2>Laulu lisamine</h2>
