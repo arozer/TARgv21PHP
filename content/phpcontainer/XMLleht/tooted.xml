@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tooted>
+  <toode>
+    <nimi>käärid</nimi>
+    <hind>kollane</hind>
+    <varv>1.5</varv>
+    <lisad>
+      <material>metall</material>
+      <tootja>as</tootja>
+    </lisad>
+  </toode>
+  <toode>
+    <nimi>liim</nimi>
+    <hind>0.45</hind>
+    <varv>valge</varv>
+    <lisad>
+      <material>liim</material>
+      <material>liim</material>
+    </lisad>
+  </toode>
+  <toode>
+    <nimi>liim</nimi>
+    <hind>0.45</hind>
+    <varv>valge</varv>
+    <lisad>
+      <material>liim</material>
+      <material>liim</material>
+    </lisad>
+  </toode>
+  <toode>
+    <nimi>liim</nimi>
+    <hind>0.45</hind>
+    <varv>valge</varv>
+    <lisad>
+      <material>liim</material>
+      <tootja>liim AS</tootja>
+    </lisad>
+  </toode>
+</tooted>

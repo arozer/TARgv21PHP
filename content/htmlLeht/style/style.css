@@ -20,6 +20,13 @@ header h1{
     text-align: center;
     color:#008500
 }
+header h2{
+    letter-spacing: 0.1cm;
+    font-size: 25px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    color:#008500
+}
 header h3{
     letter-spacing: 0.1cm;
     font-size: 20px;
@@ -41,7 +48,14 @@ h6{
 p{
     font-family:Trebuchet MS
 }
-
+form
+{
+    font-size: 16px;
+    font-family: arial;
+    text-align: left;
+    font-weight:400;
+    color: #000000
+}
 /*ذ½ذ°ذ² ذ¼ذµذ½رژ*/
 nav ul li{
     display: inline;
@@ -150,7 +164,7 @@ main{
     top:100px;
 }
 
-/*ذ؟ذ¾ذ´ذ²ذ°ذ»*/
+
 footer {
     background-color: #00CC00;
     color:white;
